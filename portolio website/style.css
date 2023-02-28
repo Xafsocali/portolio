@@ -1,0 +1,129 @@
+body{
+    background:fff;
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdwn{
+    margin: 0 auto;
+}
+
+nav{
+    height: 60px;
+    background: #161616;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.logo{
+    padding: 5px 0 0 80px ;
+    width: 150px;
+    height: auto;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float:right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    background: #080808;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #ebe2e2;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    background: hwb(0 2% 7%);
+}
+
+nav ul ul{
+    position: absolute;
+    top: 30px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul  ul  li{
+    width: 100px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.body{
+    padding: 0 20px;
+}
+.body img{
+    width: 200%;
+    max-width: 900px;
+    margin: 20px 0;
+}
+
+.body p{
+    text-align: justifys;
+}
+.contact{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%);
+}
+h1{
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: bisque;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(229, 245, 239);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsaltter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsaltter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid rgb(245, 5, 5);
+    outline: none;
+    border-radius: 30px;
+}
+.newsaltter form input:last-child{
+ position: relative;
+ display: inline-block;
+ outline: none;
+ border: none;
+ padding: 10px 30px;
+ border-radius: 30px;
+ background: rgb(245, 5, 5);
+ color: rgb(250, 248, 248);
+ box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+ top: 6px;
+ right: 6px;
+}
